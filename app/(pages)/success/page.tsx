@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Navbar, Label, Title, Video, Footer } from '@/components';
 import { Stories } from '@/containers';
-import Trophy from '@/public/trophy.png';
+import Trophy from '@/public/Trophy.png';
 
 type Course = {
     id: number;
@@ -29,7 +29,7 @@ const Success = () => {
             <Navbar />
             <Label title="Inspire to Aspire" subtitle="Celebrating Journeys, Amplifying Achievements" />
             <div className="flex flex-row justify-center">
-                <Image src={Trophy} alt="" className="z-50" width={540} height={540} />
+                <Image src={Trophy} alt="trophy" className="z-50" width={540} height={540} />
             </div>
             <Title title="Women United" />
             <div className="flex flex-row justify-center gap-8">
