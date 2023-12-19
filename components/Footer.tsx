@@ -3,8 +3,8 @@ import styles from '@/app/index';
 
 const Footer = () => {
     return (
-        <div>
-            Footer
+        <div className="flex flex-row justify-center">
+            IEEE WIE ENETCom SAG 2023
         </div>
     );
 };

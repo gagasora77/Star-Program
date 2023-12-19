@@ -15,6 +15,7 @@ export default function Home() {
           </div>
           <Title title="AI Chatbot" />
           <div className="h-[400px]" />
+          <Footer />
       </div>
   )
 }

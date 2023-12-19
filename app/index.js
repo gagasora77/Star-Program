@@ -12,7 +12,9 @@ const styles = {
     heroContent: 'flex flex-col gap-12 z-50',
     heroTextContainer: 'flex flex-col gap-4 z-50',
     heroTitle: 'w-[600px] font-bold font-inter text-[64px] z-50',
-    heroDescription: 'w-[400px] text-[#545454] text-[18px] leading-[32px] z-50',
+    heroDescription: 'flex flex-row items-center gap-8 w-[400px] text-[#545454] text-[18px] leading-[32px] z-50',
+    heroText: '',
+    heroIcon: 'bg-dark-pink text-white rounded-full border-[1px] border-white px-2 py-2 cursor-pointer z-50',
     heroButton: 'px-3 py-1 font-bold text-[24px] bg-[#FDDAE7] border-dark-pink border-[2px] rounded-tl-[16px] rounded-br-[16px] shadow-title-shadow z-50 cursor-pointer',
     heroPicture: 'px-12 z-50',
 

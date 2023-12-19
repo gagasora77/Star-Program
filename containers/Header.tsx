@@ -1,10 +1,11 @@
 "use client";
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '@/app/index';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Typewriter } from "react-simple-typewriter";
 import SPImage from '@/public/SPImage.png';
+import { HiSpeakerWave } from "react-icons/hi2";
 import { Exo_2, Inter } from 'next/font/google';
 
 const exo2 = Exo_2({ subsets: ['latin'], weight: '400', variable: '--font-exo2' })
@@ -26,7 +27,12 @@ const Header = () => {
                         />
                     </div>
                     <div className={styles.heroDescription}>
-                        “The beautiful thing about learning is that no one can take it away from you.”
+                        <div className={styles.heroText}>
+                            “The beautiful thing about learning is that no one can take it away from you.”
+                        </div>
+                        <button className={`${styles.heroIcon}`}>
+                            <HiSpeakerWave />
+                        </button>
                     </div>
                     <div className={styles.heroDescription}>
                         B.B. King
